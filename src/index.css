@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #fafafa;
+  --text: #111;
+  --text-secondary: #555;
+  --text-muted: #999;
+  --accent: #111;
+  --border: #e0e0e0;
+  --green: #25d366;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
